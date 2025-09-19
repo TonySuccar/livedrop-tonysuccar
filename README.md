@@ -1,6 +1,6 @@
 # livedrop-tonysuccar
 
-https://excalidraw.com/#json=monQsqyU5g7GP5gWM7i5k,bLQyAz3m7_h0Mh3wVq8P9Q
+[https://excalidraw.com/#json=monQsqyU5g7GP5gWM7i5k,bLQyAz3m7_h0Mh3wVq8P9Q](https://excalidraw.com/#json=-PJPd87L7CCbzruE8iNOk,0h0W4_jQ1rvrYRSfuAwrwA)
 
 1-Authentication is handled with JWT bearer tokens.
 2-Browsing products and followers uses keyset pagination on DB indexes (created_at, id) to stay stable even as new data is added.
@@ -9,6 +9,7 @@ https://excalidraw.com/#json=monQsqyU5g7GP5gWM7i5k,bLQyAz3m7_h0Mh3wVq8P9Q
 5-Celebrity problem is handled through sharding, and Redis caching for scalable follower retrieval.
 6-Caching is event-driven with short TTLs: stock, follower pages, product etc..
 7-We value consistency over availability, a trade-off that prevents inventory from ever going below zero.
+8-All inter microservices communications are made using RPC.
 
 
 
