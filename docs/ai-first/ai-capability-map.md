@@ -1,18 +1,20 @@
 # AI Capability Map
 
 ## Capabilities list
+1- AI Support Chatbot  
+2- Typeahead (search suggestions)  
+3- Return-to-Fit Advisor  
+4- Drop Hype Scorer  
+5- Emotional Checkout Nudge
 
-    1-AI support chat bot
-    2-Typeahead
-    3-zdf adfv
-    4-arvavrva
+| Capability | Intent (user) | Inputs (this sprint) | Risk 1–5 | p95 ms | Est. cost/action | Fallback | Selected |
+|---|---|---|---:|---:|---:|---|:---:|
+| AI Support Chatbot | Assistance in shopping or problems related to order | Policies.md, FAQ.md, product descriptions, order-status API (by id) | 3 | 1200 | ~$0.08 | Static FAQ page or route to human agent | YES |
+| Typeahead (search suggestions) | Help user type faster and predict their search | Product titles, tags, categories, curated synonyms, embeddings index | 2 | 300 | ~$0.008 | Prefix search / query history | YES |
+| Return-to-Fit Advisor | Size advisor helper | Size charts, SKU attributes (material/fit), recent return reasons | 3 | 600 | ~$0.02 | Show standard size chart only | NO |
+| Drop Hype Scorer | “Predict if a product will be popular | Clickstream signals, follower activity, waitlist sign-ups (simple features) | 4 | 900 | ~$0.03 | Past sales-velocity heuristics | NO |
+| Emotional Checkout Nudge | Help me decide at checkout to buy or search for something else | Cart/session events, abandonment patterns, (optional) chat sentiment | 4 | 700 | ~$0.01 | Standard checkout reminders | NO |
 
-
-| Capability | Intent (user) | Inputs (this sprint) | Risk 1–5 (tag) | p95 ms | Est. cost/action | Fallback | Selected |
-|---|---|---|---|---:|---:|---|:---:|
-| AI Support chat bot | Assistance in shopping or problems related to order | Policies, FAQs, Products and their descriptions, orders request API | 3 (hallucinations) | 1200 |  | Static Bot, FAQs page or direct to an angent | YES | :---: |
-| Typeahead | Help user type faster and predict their search | Products list, tags and embeddings | 2 | 200 |  | What's trending and query history | YES | :---: |
-|
 
 ## Reasoning
 
