@@ -1,0 +1,22 @@
+[
+  { "id": "p001", "title": "4K Ultra HD Smart TV 55\"", "price": 699, "image": "/images/TV.png", "tags": ["TV","Smart Home"], "stockQty": 42 },
+  { "id": "p002", "title": "Wireless Surround Sound System", "price": 499, "image": "/images/Sound System.png", "tags": ["Audio","Home Theater","TV"], "stockQty": 18 },
+  { "id": "p003", "title": "Noise-Canceling Headphones", "price": 149, "image": "/images/Headphones.png", "tags": ["Audio","Travel"], "stockQty": 120 },
+  { "id": "p004", "title": "Smart Speaker Mini", "price": 39, "image": "/images/Speaker.png", "tags": ["Audio","Smart Home"], "stockQty": 0 },
+  { "id": "p005", "title": "Gaming Mouse RGB", "price": 59, "image": "/images/Mouse.png", "tags": ["Gaming","Accessories"], "stockQty": 75 },
+  { "id": "p006", "title": "Mechanical Keyboard TKL", "price": 99, "image": "/images/Keyboard.png", "tags": ["Accessories","Work"], "stockQty": 35 },
+  { "id": "p007", "title": "27\" 144Hz IPS Monitor", "price": 279, "image": "/images/Monitor.png", "tags": ["Work","Gaming"], "stockQty": 21 },
+  { "id": "p008", "title": "USB-C Docking Station", "price": 129, "image": "/images/USB-C.png", "tags": ["Work","Accessories"], "stockQty": 62 },
+  { "id": "p009", "title": "NVMe SSD 1TB", "price": 109, "image": "/images/NVMe.png", "tags": ["Storage","PC","Gaming"], "stockQty": 200 },
+  { "id": "p010", "title": "Portable SSD 2TB", "price": 179, "image": "/images/Storage.png", "tags": ["Storage","Travel","Accessories"], "stockQty": 97 },
+  { "id": "p011", "title": "Smart LED Light Strip", "price": 29, "image": "/images/Light.png", "tags": ["Smart Home","Lighting"], "stockQty": 300 },
+  { "id": "p012", "title": "Robot Vacuum Basic", "price": 199, "image": "/images/Vacum.png", "tags": ["Smart Home","Cleaning"], "stockQty": 13 },
+  { "id": "p013", "title": "Action Camera 4K", "price": 249, "image": "/images/Camera.png", "tags": ["Camera","Outdoor", "Travel"], "stockQty": 41 },
+  { "id": "p014", "title": "Mirrorless Camera Lens 35mm", "price": 349, "image": "/images/Lens.png", "tags": ["Camera","Lens","Travel"], "stockQty": 9 },
+  { "id": "p015", "title": "Wireless Charger Stand", "price": 24, "image": "/images/Wireless.png", "tags": ["Mobile","Accessories"], "stockQty": 140 },
+  { "id": "p016", "title": "Smartwatch Fitness", "price": 129, "image": "/images/Watch.png", "tags": ["Wearables","Fitness","Travel"], "stockQty": 58 },
+  { "id": "p017", "title": "Bluetooth Tracker 4-Pack", "price": 49, "image": "/images/Bluetooth.png", "tags": ["Mobile","Travel"], "stockQty": 260 },
+  { "id": "p018", "title": "E-Reader 7\"", "price": 139, "image": "/images/Reader.png", "tags": ["Reading","Mobile","Smart Home"], "stockQty": 44 },
+  { "id": "p019", "title": "Smart Thermostat", "price": 169, "image": "/images/Thermo.png", "tags": ["Smart Home","Energy"], "stockQty": 26 },
+  { "id": "p020", "title": "Wi-Fi 6 Router", "price": 159, "image": "/images/WIFI.png", "tags": ["Networking","Smart Home"], "stockQty": 70 }
+]

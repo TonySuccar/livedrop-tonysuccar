@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ORD-2025-10-12-7GQ4K",
+    "createdAt": "2025-01-01T10:00:00.000Z",
+    "items": [
+      { "id": "p003", "title": "Noise-Canceling Headphones", "price": 149, "image": "https://picsum.photos/id/180/800/800", "qty": 1 }
+    ],
+    "total": 149
+  },
+  {
+    "id": "ORD-2025-02-02-EFGH2",
+    "createdAt": "2025-02-02T12:00:00.000Z",
+    "items": [
+      { "id": "p009", "title": "NVMe SSD 1TB", "price": 109, "image": "https://picsum.photos/id/106/800/800", "qty": 2 }
+    ],
+    "total": 218
+  }
+]

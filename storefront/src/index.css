@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg-base:#FFFFFF;            /* Pure White */
+  --brand:#003366;              /* Deep Blue */
+  --cta:#FF9900;                /* Conversion Yellow/Orange */
+  --text:#333333;               /* Dark Charcoal */
+  --neutral:#EEEEEE;            /* Light Grey */
+  --success:#4CAF50;            /* Calm Green */
+  --alert:#CC0000;              /* Vivid Red */
+}
+
+html,body,#root{height:100%}
+body{background:var(--bg-base); color:var(--text)}
